@@ -4,8 +4,8 @@ export default function Footer() {
     const year = now.getFullYear();
     return(
         <div className="px-5 md:px-[15%] border-t border-neutral-400/10">
-            <div className="grid grid-cols-1 md:grid-cols-3 gap-10 py-15">
-                <div className="w-100">
+            <div className="grid grid-cols-1 md:grid-cols-3 gap-10 md:py-15">
+                <div className="md:w-100">
                     <h1 className="text-2xl font-bold mb-4">daniel<span className="text-orange-500">.</span></h1>
                     <p className="text-neutral-400">Frontend developer crafting beautiful digital experiences with code and creativity.</p>
                 </div>
@@ -26,7 +26,7 @@ export default function Footer() {
                 </div>
             </div>
             <div className="py-10 border-t border-neutral-400/10">
-                <p className="text-neutral-400 text-xs">&copy; {year} Daniel Ekeberg. All rights reserved.</p>
+                <p className="text-neutral-400 text-right md:text-left text-xs">&copy; {year} Daniel Ekeberg. All rights reserved.</p>
             </div>
         </div>
     )

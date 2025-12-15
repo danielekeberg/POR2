@@ -32,29 +32,31 @@ export default function Project() {
         <>
             <Header />
             <div className="px-5 md:px-[15%] py-35">
-                <div className="flex gap-2 items-center text-neutral-400 group cursor-pointer">
+                <Link href="../" className="flex gap-2 items-center text-neutral-400 group cursor-pointer">
                     <img src="../arrow-left.svg" className="h-5 group-hover:-translate-x-1 transition duration-300" />
                     <p className="group-hover:text-[#eae8e0]">Back to projects</p>
-                </div>
+                </Link>
                 <p className="text-orange-500 mt-10 mb-5">{project?.category}</p>
                 <h1 className="text-8xl font-bold my-5">{project?.name}</h1>
                 <p className="text-neutral-400 my-10">{project?.desc}</p>
-                <div className="flex gap-5 items-center text-sm">
+                <div className="grid grid-cols-1 md:flex gap-5 items-center text-sm">
                     <div className="flex flex-col gap-3">
                         <p className="text-neutral-400">DURATION</p>
                         <p className="py-1">{project?.duration}</p>
                     </div>
                     <div className="flex flex-col gap-3">
                         <p className="text-neutral-400">TECHNOLOGIES</p>
-                        <div className="flex gap-2 items-center">{project?.tech.map((t:any, i:any) => (
-                            <p key={i} className="bg-neutral-900 py-1 px-3 rounded-full border border-neutral-400/10">{t}</p>
-                        ))}</div>
+                        <div className="grid grid-cols-2 md:grid-cols-4 gap-2 items-center">
+                            {project?.tech.map((t:any, i:any) => (
+                                <p key={i} className="bg-neutral-900 text-center py-1 px-3 rounded-full border border-neutral-400/10">{t}</p>
+                            ))}
+                        </div>
                     </div>
                 </div>
                 <div className="my-10 rounded-xl overflow-hidden border border-neutral-400/20">
                     <img src={project?.img} />
                 </div>
-                <div className="bg-[#eae8e0] py-[5%] px-[15%] text-[#0a0a0a]">
+                <div className="bg-[#eae8e0] py-[5%] px-[15%] border border-neutral-400/10 text-[#0a0a0a]">
                     <h1 className="text-3xl font-bold mb-10">Project Overview</h1>
                     <p>{project?.description}</p>
                 </div>
