@@ -1,0 +1,41 @@
+[
+    {
+       "id": 1,
+        "name": "Corely",
+        "slug": "corely",
+        "category": "MODERN E-COMMERCE PLATFORM",
+        "desc": "Corely is a sleek e-commerce platform designed to showcase products with a clean layout and easy navigation. It delivers a seamless shopping experience with product listings, detailed views, and a fully functional cart.",
+        "github": "https://github.com/danielekeberg/corely",
+        "live": "https://corely.netlify.app/",
+        "duration": "6 weeks",
+        "tech": ["React", "TypeScript", "Tailwind CSS"],
+        "img": "../corely-teaser.jpg",
+        "description": "Corely was created as a modern e-commerce platform with an emphasis on simplicity, structure, and usability. The project aimed to deliver a seamless shopping experience where users can easily browse, evaluate, and purchase products without friction. Key challenges involved designing a scalable product listing system, implementing search and sorting functionality, and building a smooth shopping cart flow. The checkout experience was carefully structured to feel efficient and predictable. The visual design focuses on clarity and consistency, minimizing cognitive load while keeping the interface visually balanced. Each interaction was crafted to feel familiar, fast, and trustworthy."
+    },
+    {
+        "id": 2,
+        "name": "LuxeLot",
+        "slug": "luxelot",
+        "category": "ACTION MARKETPLACE PLATFORM",
+        "desc": "LuxeLot is a modern auction marketplace where users can create listings, place bids, and compete in real time. The platform focuses on clean UI, smooth interactions, and an intuitive bidding experience.",
+        "github": "https://github.com/danielekeberg/luxelot",
+        "live": "https://luxelot.netlify.app/",
+        "duration": "6 weeks",
+        "tech": ["JavaScript", "HTML", "CSS"],
+        "img": "../luxelot-teaser.jpg",
+        "description": "LuxeLot was built to modernize the online auction experience by combining real-time interactions with a clean and approachable interface. The project focused on making bidding intuitive and engaging, while maintaining clarity and trust throughout the user journey. Key challenges included handling live bid updates, managing user authentication, and ensuring listings and bids felt instantly responsive. Special attention was given to feedback states, so users always understand the current auction status. The design prioritizes focus and hierarchy, reducing distractions while highlighting essential auction information. Every interaction was designed to feel deliberate, responsive, and rewarding for both buyers and sellers."
+    },
+    {
+        "id": 3,
+        "name": "Holidaze",
+        "slug": "holidaze",
+        "category": "TRAVEL BOOKING PLATFORM",
+        "desc": "Holidaze is a modern travel booking platform that allows users to explore and discover unique places to stay. The project emphasizes usability, responsive design, and a visually engaging browsing experience.",
+        "github": "https://github.com/danielekeberg/holidaze",
+        "live": "https://holidaze-iota.vercel.app/",
+        "duration": "6 weeks",
+        "tech": ["React", "TypeScript", "Tailwind CSS"],
+        "img": "../holidaze-teaser.jpg",
+        "description": "Holidaze was designed to help users discover and explore unique places to stay through an engaging and visually rich booking experience. The project focused on combining inspirational content with clear navigation and practical search functionality. Key challenges included presenting large amounts of property data in a digestible way and ensuring the platform remained responsive across devices. Emphasis was placed on guiding users smoothly from exploration to detailed property views. The design language balances atmosphere with usability, allowing visuals to inspire without overwhelming the interface. Every interaction was designed to feel calm, intuitive, and confidence-inspiring throughout the booking journey."
+    }
+]
