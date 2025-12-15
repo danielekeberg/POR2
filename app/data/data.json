@@ -27,15 +27,15 @@
     },
     {
         "id": 3,
-        "name": "Holidaze",
-        "slug": "holidaze",
-        "category": "TRAVEL BOOKING PLATFORM",
-        "desc": "Holidaze is a modern travel booking platform that allows users to explore and discover unique places to stay. The project emphasizes usability, responsive design, and a visually engaging browsing experience.",
+        "name": "DanBook",
+        "slug": "danbook",
+        "category": "SOCIAL BLOGGING PLATFORM",
+        "desc": "DanBook is a social blogging platform where users can create posts, interact with others, and manage their personal profiles in a modern, dark-themed interface.",
         "github": "https://github.com/danielekeberg/holidaze",
         "live": "https://holidaze-iota.vercel.app/",
         "duration": "6 weeks",
-        "tech": ["React", "TypeScript", "Tailwind CSS"],
-        "img": "../holidaze-teaser.jpg",
-        "description": "Holidaze was designed to help users discover and explore unique places to stay through an engaging and visually rich booking experience. The project focused on combining inspirational content with clear navigation and practical search functionality. Key challenges included presenting large amounts of property data in a digestible way and ensuring the platform remained responsive across devices. Emphasis was placed on guiding users smoothly from exploration to detailed property views. The design language balances atmosphere with usability, allowing visuals to inspire without overwhelming the interface. Every interaction was designed to feel calm, intuitive, and confidence-inspiring throughout the booking journey."
+        "tech": ["JavaScript", "HTML", "CSS"],
+        "img": "../danbook-teaser.png",
+        "description": "DanBook was built as a social blogging platform focused on user-generated content and community interaction. The project aimed to create a clean and engaging environment where users can share posts, explore activity feeds, and interact with other users through a familiar social-style interface. Key challenges included implementing full CRUD functionality for posts, handling user authentication, and managing dynamic profile data such as followers, posts, and interactions. Particular attention was given to state management and ensuring updates felt immediate and responsive across the platform. The design emphasizes clarity and immersion through a dark, modern aesthetic with subtle gradients and visual hierarchy. Every interaction was carefully designed to feel smooth, intuitive, and consistent, creating a cohesive social experience from feed to profile."
     }
 ]
