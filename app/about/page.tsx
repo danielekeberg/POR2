@@ -1,12 +1,14 @@
 import Header from "@/app/components/Header";
 import Footer from "@/app/components/Footer";
+import Back from "@/app/components/Back";
 export default function About() {
     return(
         <>
             <Header />
             <div className="px-5 md:px-[15%] my-35">
                 <div className="md:w-2/3">
-                    <p className="text-orange-500">ABOUT ME</p>
+                    <Back />
+                    <p className="text-orange-500 mt-10 mb-5">ABOUT ME</p>
                     <div className="my-5">
                         <h1 className="text-4xl md:text-5xl tracking-tighter font-extrabold">Frontend developer with a</h1>
                         <h1 className="text-4xl md:text-5xl tracking-tighter font-extrabold bg-gradient-to-r bg-clip-text text-transparent from-orange-500 to-teal-500 w-fit">passion for craft</h1>
