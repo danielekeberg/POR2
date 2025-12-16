@@ -50,6 +50,14 @@ export default function SelectedWork() {
                     </div>
                 </Link>
             </div>
+            <div className="flex justify-center my-15">
+                <Link href="../projects/" className="flex items-center gap-2 group">
+                    <p className="relative inline-block after:content-[''] w-fit after:absolute after:left-0 after:-bottom-1 after:h-[2px] after:w-0 after:bg-orange-500 after:transition-all after:duration-300 hover:after:w-full text-xl cursor-pointer">View all projects</p>
+                    <div className="h-8 w-8 border border-neutral-400/20 rounded-full bg-neutral-900 group-hover:bg-orange-500 flex items-center justify-center transition duration-300">
+                        <img src="../arrow-left.svg" className="h-5 rotate-180" />
+                    </div>
+                </Link>
+            </div>
         </div>
     )
 }
