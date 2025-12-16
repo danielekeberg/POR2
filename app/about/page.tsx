@@ -13,7 +13,11 @@ export default function About() {
                         <h1 className="text-4xl md:text-5xl tracking-tighter font-extrabold">Frontend developer with a</h1>
                         <h1 className="text-4xl md:text-5xl tracking-tighter font-extrabold bg-gradient-to-r bg-clip-text text-transparent from-orange-500 to-teal-500 w-fit">passion for craft</h1>
                     </div>
-                    <p className="text-neutral-400 text-xl">I'm a graduating frontend development student who believes that grat interfaces are built at the intersection of design thinking and technical excellence. My work focuses on creating experiences that feel intuitive, look stunning, and perform flawlessly.</p>
+                    <div className="flex flex-col gap-5">
+                        <p className="text-neutral-400 text-xl">I'm a frontend developer who cares deeply about crafting intuitive and engaging user experiences. I enjoy bridging the gap between design and development, making sure every detial feels intentional - from layout and typography to performance and interaction.</p>
+                        <p className="text-neutral-400 text-xl">Currently completing my frontend development studies, I work primarily with React, TypeScript, and modern CSS tools like Tailwind. I value clean, readable code and enjoy building interfaces that are responsive, accessible, and easy to use.</p>
+                        <p className="text-neutral-400 text-xl">I'm driven by curiosity and continuous learning, and I enjoy refining my skills by building real-world projects and experimenting with new technologies.</p>
+                    </div>
                     <div className="grid grid-cols-1 md:grid-cols-2 gap-5 my-10">
                         <div className="flex gap-5 items-center bg-neutral-900 p-5 rounded rounded-xl border border-neutral-500/10">
                             <div className="bg-orange-500/10 h-15 w-15 flex items-center justify-center rounded-full">
