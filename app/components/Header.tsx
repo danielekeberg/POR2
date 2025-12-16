@@ -17,7 +17,7 @@ export default function Header() {
                 <Link href="../" className="text-2xl font-bold cursor-pointer">daniel<span className="text-orange-500">.</span></Link>
             </div>
             <nav className="flex gap-8 text-neutral-400">
-                <Link href="../" className="relative inline-block after:content-[''] w-fit after:absolute after:left-0 after:-bottom-1 after:h-[2px] after:w-0 after:bg-orange-500 after:transition-all after:duration-300 hover:after:w-full hover:text-[#eae8e0] cursor-pointer">WORK</Link>
+                <Link href="../projects/" className="relative inline-block after:content-[''] w-fit after:absolute after:left-0 after:-bottom-1 after:h-[2px] after:w-0 after:bg-orange-500 after:transition-all after:duration-300 hover:after:w-full hover:text-[#eae8e0] cursor-pointer">WORK</Link>
                 <Link href="../about/" className="relative inline-block after:content-[''] w-fit after:absolute after:left-0 after:-bottom-1 after:h-[2px] after:w-0 after:bg-orange-500 after:transition-all after:duration-300 hover:after:w-full hover:text-[#eae8e0] cursor-pointer">ABOUT</Link>
             </nav>
             <Link href="../about/" className="bg-orange-500 px-5 hidden md:block py-2 text-slate-900 font-bold rounded-full cursor-pointer">Let's talk</Link>
