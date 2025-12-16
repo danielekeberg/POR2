@@ -4,7 +4,7 @@ export default function Footer() {
     const year = now.getFullYear();
     return(
         <div className="px-5 md:px-[15%] border-t border-neutral-400/10">
-            <div className="grid grid-cols-1 md:grid-cols-3 gap-10 md:py-15">
+            <div className="grid grid-cols-1 md:grid-cols-3 gap-10 py-5 md:py-15">
                 <div className="md:w-100">
                     <h1 className="text-2xl font-bold mb-4">daniel<span className="text-orange-500">.</span></h1>
                     <p className="text-neutral-400">Frontend developer crafting beautiful digital experiences with code and creativity.</p>
@@ -18,7 +18,7 @@ export default function Footer() {
                 </div>
                 <div>
                     <h1 className="text-sm font-bold">GET IN TOUCH</h1>
-                    <p className="my-5">danieleke@live.no</p>
+                    <p className="my-5 text-orange-500">danieleke@live.no</p>
                     <div className="flex gap-5">
                         <Link className="h-10 w-10 rounded-full bg-neutral-900 cursor-pointer hover:scale-110 hover:border-orange-500 border border-neutral-400/10 transition duration-300" href="https://github.com/danielekeberg" target="_blank"><img src="../github.svg" className="p-2" /></Link>
                         <Link className="h-10 w-10 rounded-full bg-neutral-900 cursor-pointer hover:scale-110 hover:border-orange-500 border border-neutral-400/10 transition duration-300" href="https://www.linkedin.com/in/daniel-lehre-ekeberg-04a7b1178/" target="_bank"><img src="../linkedin.svg" className="p-2" /></Link>
