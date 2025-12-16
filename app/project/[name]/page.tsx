@@ -28,6 +28,7 @@ export default function Project() {
         const filter = (data as Project[]).find(n => n.slug === name);
         setProject(filter ?? null);
     }, [])
+    document.title = project?.name ? `Daniel Ekeberg | ${project?.name}` : "Daniel Ekeberg"
     return(
         <>
             <Header />
