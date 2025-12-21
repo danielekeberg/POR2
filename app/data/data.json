@@ -59,7 +59,7 @@
         "desc": "A clean demo showcasing a fitness center layout with basic info and features.",
         "github": "https://github.com/danielekeberg/treningssenter-demo",
         "live": "https://treningssenter-demo.vercel.app/",
-        "duration": "6 weeks",
+        "duration": "1 day",
         "tech": ["React", "TypeScript", "Tailwind CSS"],
         "img": "../treningssenter-teaser.jpg",
         "description": "This Gym Center Demo is a conceptual website created to showcase how a modern fitness center can be presented online. The project focuses on a clean, professional layout with strong typography, clear structure, and a dark visual theme for a premium look and feel. It displays essential information such as services, facilities, and training offerings in a clear and user-friendly way. The site is built with performance and maintainability in mind, using React, TypeScript, and Tailwind CSS. This project is a demo and design concept rather than a full production website. Its purpose is to demonstrate UI/UX skills, component-based architecture, and modern frontend development practices."
