@@ -18,7 +18,7 @@ export default function SelectedWork() {
       </div>
       <div className="grid grid-cols-1 md:grid-cols-2 gap-10 md:gap-0 mt-15">
         <Link
-          href="../project/luxelot"
+          href="../project/csstatlab"
           className="rounded-xl overflow-hidden border group bg-neutral-900 border-neutral-600/20 hover:-translate-y-2 transition duration-300 cursor-pointer"
         >
           <img
@@ -41,7 +41,7 @@ export default function SelectedWork() {
         </Link>
         <div className="md:p-10">
           <Link
-            href="../project/corely"
+            href="../project/hadelandgravstein"
             className="block rounded-xl overflow-hidden border border-neutral-600/20 group bg-neutral-900 hover:-translate-y-2 transition duration-300 cursor-pointer"
           >
             <img
@@ -66,7 +66,7 @@ export default function SelectedWork() {
       </div>
       <div className="flex justify-center mt-10">
         <Link
-          href="../project/danbook"
+          href="../project/holidaze"
           className="rounded-xl w-250 overflow-hidden border border-neutral-600/20 group bg-neutral-900 hover:-translate-y-2 transition duration-300 cursor-pointer"
         >
           <img

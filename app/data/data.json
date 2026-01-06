@@ -14,19 +14,6 @@
   },
   {
     "id": 2,
-    "name": "Gym Center Demo",
-    "slug": "gymcenter",
-    "category": "FITNESS WEBSITE DEMO",
-    "desc": "A clean demo showcasing a fitness center layout with basic info and features.",
-    "github": "https://github.com/danielekeberg/treningssenter-demo",
-    "live": "https://treningssenter-demo.vercel.app/",
-    "duration": "1 day",
-    "tech": ["React", "TypeScript", "Tailwind CSS"],
-    "img": "../treningssenter-teaser.jpg",
-    "description": "This Gym Center Demo is a conceptual website created to showcase how a modern fitness center can be presented online. The project focuses on a clean, professional layout with strong typography, clear structure, and a dark visual theme for a premium look and feel. It displays essential information such as services, facilities, and training offerings in a clear and user-friendly way. The site is built with performance and maintainability in mind, using React, TypeScript, and Tailwind CSS. This project is a demo and design concept rather than a full production website. Its purpose is to demonstrate UI/UX skills, component-based architecture, and modern frontend development practices."
-  },
-  {
-    "id": 3,
     "name": "Hadeland Gravstein",
     "slug": "hadelandgravstein",
     "category": "MEMORIAL PRODUCTS WEBSITE",
@@ -39,7 +26,7 @@
     "description": "Hadeland Gravstein is a website designed to present gravestone products in a clear and respectful manner. The site allows users to browse different gravestone models, view pricing, and understand available customization options. Emphasis is placed on simplicity, clarity, and ease of navigation to ensure a calm and accessible user experience. The layout is structured to guide users through products without overwhelming information. This project focuses on clean UI, informative content, and practical product presentation. The website serves as a digital showroom for gravestone products and related services."
   },
   {
-    "id": 4,
+    "id": 3,
     "name": "Holidaze",
     "slug": "holidaze",
     "category": "TRAVEL BOOKING PLATFORM",
@@ -50,5 +37,18 @@
     "tech": ["React", "TypeScript", "Tailwind CSS"],
     "img": "../holidaze-teaser.jpg",
     "description": "Holidaze was designed to help users discover and explore unique places to stay through an engaging and visually rich booking experience. The project focused on combining inspirational content with clear navigation and practical search functionality. Key challenges included presenting large amounts of property data in a digestible way and ensuring the platform remained responsive across devices. Emphasis was placed on guiding users smoothly from exploration to detailed property views. The design language balances atmosphere with usability, allowing visuals to inspire without overwhelming the interface. Every interaction was designed to feel calm, intuitive, and confidence-inspiring throughout the booking journey."
+  },
+  {
+    "id": 4,
+    "name": "Gym Center Demo",
+    "slug": "gymcenter",
+    "category": "FITNESS WEBSITE DEMO",
+    "desc": "A clean demo showcasing a fitness center layout with basic info and features.",
+    "github": "https://github.com/danielekeberg/treningssenter-demo",
+    "live": "https://treningssenter-demo.vercel.app/",
+    "duration": "1 day",
+    "tech": ["React", "TypeScript", "Tailwind CSS"],
+    "img": "../treningssenter-teaser.jpg",
+    "description": "This Gym Center Demo is a conceptual website created to showcase how a modern fitness center can be presented online. The project focuses on a clean, professional layout with strong typography, clear structure, and a dark visual theme for a premium look and feel. It displays essential information such as services, facilities, and training offerings in a clear and user-friendly way. The site is built with performance and maintainability in mind, using React, TypeScript, and Tailwind CSS. This project is a demo and design concept rather than a full production website. Its purpose is to demonstrate UI/UX skills, component-based architecture, and modern frontend development practices."
   }
 ]
