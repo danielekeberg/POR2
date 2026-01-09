@@ -22,7 +22,7 @@ export default function SelectedWork() {
           className="rounded-xl overflow-hidden border group bg-neutral-900 border-neutral-600/20 hover:-translate-y-2 transition duration-300 cursor-pointer"
         >
           <img
-            className="group-hover:grayscale-0 grayscale transition duration-300"
+            className="group-hover:grayscale-0 md:grayscale transition duration-300"
             src="../csstatlab-teaser.jpg"
           />
           <div className="p-5">
@@ -45,7 +45,7 @@ export default function SelectedWork() {
             className="block rounded-xl overflow-hidden border border-neutral-600/20 group bg-neutral-900 hover:-translate-y-2 transition duration-300 cursor-pointer"
           >
             <img
-              className="group-hover:grayscale-0 grayscale transition duration-300"
+              className="group-hover:grayscale-0 md:grayscale transition duration-300"
               src="../hg-teaser.jpg"
             />
             <div className="p-5">
@@ -70,7 +70,7 @@ export default function SelectedWork() {
           className="rounded-xl w-250 overflow-hidden border border-neutral-600/20 group bg-neutral-900 hover:-translate-y-2 transition duration-300 cursor-pointer"
         >
           <img
-            className="group-hover:grayscale-0 grayscale transition duration-300"
+            className="group-hover:grayscale-0 md:grayscale transition duration-300"
             src="../holidaze-teaser.jpg"
           />
           <div className="p-5">
