@@ -32,11 +32,6 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <script
-        async
-        src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7255204765091044"
-        crossOrigin="anonymous"
-      ></script>
       <Analytics />
       <body className={`${dmSans.variable} antialiased`}>{children}</body>
     </html>
