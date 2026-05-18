@@ -21,14 +21,13 @@ export default function About() {
             <p className="text-neutral-400 text-xl">
               I'm a frontend developer who cares deeply about crafting intuitive
               and engaging user experiences. I enjoy bridging the gap between
-              design and development, making sure every detial feels intentional
+              design and development, making sure every detail feels intentional
               - from layout and typography to performance and interaction.
             </p>
             <p className="text-neutral-400 text-xl">
-              Currently completing my frontend development studies, I work
-              primarily with React, TypeScript, and modern CSS tools like
-              Tailwind. I value clean, readable code and enjoy building
-              interfaces that are responsive, accessible, and easy to use.
+              I work extensively with React, PHP, API integrations, databases,
+              and cloud platforms such as Azure, with a strong focus on building
+              responsive, maintainable, and user-friendly applications.
             </p>
             <p className="text-neutral-400 text-xl">
               I'm driven by curiosity and continuous learning, and I enjoy
@@ -43,7 +42,7 @@ export default function About() {
               </div>
               <div>
                 <h5>Based in</h5>
-                <p className="text-neutral-400">Oslo, Norway</p>
+                <p className="text-neutral-400">Hønefoss, Norway</p>
               </div>
             </div>
             <div className="flex gap-5 items-center bg-neutral-900 p-5 rounded rounded-xl border border-neutral-500/10">
